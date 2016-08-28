@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+  padding: 10px 0;
+  text-align: center;
+  background-color: #BAC63A;
+}
+
+.container {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  padding: 20px 0;
+  background-color: #F8EABA;
+  box-shadow: 0 0 1em #3CB649;
+} 
+
+table {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.game-header h1 {
+  font-size: 28px;
+  font-family: 'Lobster Two', cursive;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.game-header p, span {
+  font-family: 'Lobster Two', cursive;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.game-header #reset {
+  padding: 2px 5px;
+  border: none;
+  margin: 5px;
+  font-family: 'Lobster Two', cursive;
+  font-size: 16px;
+  color: white;
+  background-color: #2C9A87;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.5s ease;
+}
+
+.game-header #reset:hover {
+  background-color: #701346;
+}
+
+.container img {
+  height: auto;
+  max-height: 130px;
+  width: 96%;
+  transition: all 0.3s ease;
+  margin: 1px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #3CB648;
+}
+
+.matched {
+  opacity: 0.7;
+}
+
+
+/* ==========Mobile Styles ===============*/
+
+
+@media screen and (max-width: 960px) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    width: 90%;
+  }
+}
+
